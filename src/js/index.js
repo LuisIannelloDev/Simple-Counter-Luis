@@ -27,7 +27,7 @@ function SimpleCounter(props) {
     );
 }
 
-// define prop types for the SimpleCounter component
+// Definir proptypes
 SimpleCounter.propTypes = {
     digitFour: PropTypes.number,
     digitThree: PropTypes.number,
@@ -35,16 +35,12 @@ SimpleCounter.propTypes = {
     digitOne: PropTypes.number
 }
 
-// get the root element
 const rootElement = document.getElementById('app');
 
-// create the root
 const root = ReactDOM.createRoot(rootElement);
 
-// counter variable
 let counter = 0;
 
-// setInterval function to update the counter every second
 setInterval(function() {
     const four = Math.floor(counter / 1000);
     const three = Math.floor(counter / 100) % 10;

@@ -23,11 +23,7 @@ body {
 
 .bigCounter > div {
     margin: 0 10px;
-    font-size: 3rem;
+    font-size: 100px;
     text-align: center;
 }
 
-.calendar {
-    font-size: 3rem;
-    margin-right: 20px;
-}
